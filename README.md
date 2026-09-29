@@ -1,32 +1,43 @@
-# React + TypeScript + Vite
+# ⚡ Road to Colosseum: Builder Chronicle & Reflection Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Interactive Reflection Hub, Builder Lessons & Video Pitch Suite for Colosseum World's Fair.**  
+> Built for the official **Road to Colosseum | Builders Reflect & Share ($1,000 USDC Bounty)** on [Superteam Earn](https://superteam.fun/earn).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ The Builder Pivot: From Web2 Cold Job Boards to 24 Public SVM Repos
 
-## React Compiler
+Over 3 months, cold applications to generic Web2 full-stack roles produced 85% ATS silence and template rejections.
+The breakthrough came from **building proof-of-work in public on Solana**:
+- Open-sourcing 24 production repositories on GitHub (`@sidsri14`).
+- Architecting flagship protocols for the **$840K Colosseum Crypto World's Fair** (`Z-Spend` `#14492` and `SolCredit`).
+- Engineering zero-copy Anchor Rust account layouts, ZK stealth transfers, and sub-millisecond AI middleware.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Key Technical Lessons Documented
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+1. **Speed to Verified Execution**: Don't build mockups; ship verified smart contracts with full unit tests and on-chain state verification.
+2. **Compute Unit Optimization**: Zero-copy AccountLoaders reduce transaction overhead by 90%+ compared to standard Borsh serialization.
+3. **The Global Superteam Leverage**: Building alongside global teams across India, Canada, Poland, and Brazil creates compounding feedback loops.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+---
+
+## 🚀 Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/sidsri14/colosseum-builders-reflect.git
+cd colosseum-builders-reflect
+
+# Install dependencies
+npm install
+
+# Start local server
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 📜 License
+MIT © 2026 Siddharth Srivastava (@sidsri14)
